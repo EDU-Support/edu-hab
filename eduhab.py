@@ -1,5 +1,6 @@
 # thanks to ibanezzmatt13 for the origonal code and a great deal of help
 # requires the adafruit BMP085 library
+# baud rate is set at 50
 
 
 #!/usr/bin/python
