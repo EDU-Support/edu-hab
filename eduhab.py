@@ -127,7 +127,7 @@ def set_time(time):
  
 # function to send both telemetry and packets
 def send(data):
-    NTX2 = serial.Serial('/dev/ttyAMA0', 50, serial.EIGHTBITS, serial.PARITY_NONE, serial.STOPBITS_TWO) # opening serial at 300 baud for radio transmission with 8 character bits, no parity and two stop bits
+    NTX2 = serial.Serial('/dev/ttyAMA0', 50, serial.EIGHTBITS, serial.PARITY_NONE, serial.STOPBITS_TWO) # opening serial at 50 baud for radio transmission with 8 character bits, no parity and two stop bits
     NTX2.write(data) # write final datastring to the serial port
     NTX2.close()
     
