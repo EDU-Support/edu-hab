@@ -1,4 +1,5 @@
 # thanks to ibanezzmatt13 for the origonal code and a great deal of help
+# and many thanks to the hab community http://ukhas.org.uk/
 # requires the adafruit BMP085 library
 # baud rate is set at 50
 
