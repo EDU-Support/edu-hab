@@ -1,4 +1,4 @@
-# thanks to ibanezzmatt13 for the origonal code and a great deal of help
+# thanks to Matthew Beckett (ibanezzmatt13 NORB) for the original code and a great deal of help
 # and many thanks to the hab community http://ukhas.org.uk/
 
 
