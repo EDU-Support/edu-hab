@@ -13,11 +13,12 @@ Example: sudo eduhab.py -p -s -c EDUHAB1
 The code has a cutdown function that sends GPIO pin 25 high on activation
 
 Parameters are set here:
+
 TopAlt = 12000 # Altitude in meters to cut off.
 CutOff = 25 # GPIO Pin in BCM mode to trigger
 DropDelay = 10 # Delay in seconds to disable the GPIO pin after it's been "dropped"
 
-To test the coudown logic set this line to True
+To test the cutdown logic set this line to True
 
 ##--------------##
 TESTING = False ## If you want to test the Cut Off, Enable this (True).
