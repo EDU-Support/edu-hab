@@ -1,5 +1,5 @@
 # Thanks to UKHAS community and ibanezzmat13 for help the origonal code
-# and James at Pridopia for all the hard work
+# and James at Pridopia for making it all work
 
 
 
