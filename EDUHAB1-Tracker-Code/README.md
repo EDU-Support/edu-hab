@@ -8,7 +8,7 @@ Start sending short string for transmission -s
 
 Short string = callsign, time, counter, latitude, longitude, satellites, flightmode, temp2, altitude, cutdown
 
-Example: sudo eduhab.py -p -s -c EDUHAB1
+Example: sudo python eduhab.py -p -s -c EDUHAB1
 
 The code has a cutdown function that sends GPIO pin 25 high on activation
 
@@ -50,4 +50,6 @@ Camera.start_preview()
         Camera.stop_preview()
         
 The sensor data is recorded in the log.txt file with a timestamp
+
+Run sudo python clean.py to remove all your old images
         
